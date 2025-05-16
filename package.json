@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "build": "npm i",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/mu-kumaran/mshopping-backend#readme",
   "dependencies": {
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.10"
   }
 }
